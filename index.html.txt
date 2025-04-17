@@ -51,7 +51,7 @@
       <!-- Anti bot -->
       <input type="hidden" name="_captcha" value="false">
       <!-- Redirect setelah submit -->
-      <input type="hidden" name="_next" value="https://yourvercelapp.vercel.app/terkirim.html">
+      <input type="hidden" name="_next" value="https://website-two-delta-43.vercel.app/terkirim.html">
 
       <button type="submit">Kirim Pendaftaran</button>
     </form>
