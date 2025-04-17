@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Pendaftaran</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 40px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Formulir Pendaftaran</h2>
+    <form action="https://formsubmit.co/fc.arsyaaa@gmail.com" method="POST">
+      <input type="text" name="nama" placeholder="Nama Lengkap" required>
+      <input type="email" name="email" placeholder="Alamat Email" required>
+      <textarea name="pesan" placeholder="Pesan atau Keterangan Tambahan (opsional)"></textarea>
+
+      <!-- Anti bot -->
+      <input type="hidden" name="_captcha" value="false">
+      <!-- Redirect setelah submit -->
+      <input type="hidden" name="_next" value="https://website-two-delta-43.vercel.app/terkirim.html">
+
+      <button type="submit">Kirim Pendaftaran</button>
+    </form>
+  </div>
+</body>
+</html>
